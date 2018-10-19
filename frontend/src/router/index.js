@@ -14,7 +14,7 @@ export default new Router({
       component: Index
     },
     {
-      path: '/:id',
+      path: '/movies/:id',
       name: 'show',
       component: Show
     }
